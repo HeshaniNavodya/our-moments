@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Days 💗</title>
+
+  <!-- Handwritten Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Patrick Hand', cursive;
+      background-image: url('bg.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+      color: #444;
+      overflow-x: hidden;
+    }
+
+    .header { 
+      text-align: center; 
+      padding: 40px 20px; 
+      font-size: 32px; 
+      font-weight: 600; 
+      color: #ff68a3; 
+      letter-spacing: 1px; 
+      font-family: 'Shadows Into Light', cursive;
+    }
+
+    .timeline { width: 90%; max-width: 900px; margin: auto; display: flex; flex-direction: column; gap: 40px; }
+    .day { background: #ffffffcc; padding: 20px; border-radius: 20px; box-shadow: 0 4px 12px rgba(255, 105, 155, 0.15); border: 1px solid #ffd4e6; }
+    .date { font-size: 18px; font-weight: 600; color: #ff4f92; margin-bottom: 10px; font-family: 'Shadows Into Light', cursive; }
+    .message { font-size: 15px; margin-bottom: 15px; font-family: 'Patrick Hand', cursive; }
+    .photo { width: 100%; border-radius: 15px; margin-top: 10px; }
+
+    .cute-btn { padding: 10px 22px; border-radius: 20px; border: none; font-size: 15px; cursor: pointer; transition: 0.3s; margin-right: 10px; font-weight: 600; }
+    .yes-btn { background: #ff9bcf; color: white; box-shadow: 0 4px 10px rgba(255, 155, 207, 0.4); }
+    .yes-btn:hover { background: #ff84c4; }
+    .no-btn { background: #ffc7df; color: #b84b4b; box-shadow: 0 4px 10px rgba(255, 199, 223, 0.4); }
+    .no-btn:hover { background: #ffbad8; }
+
+    .heart { position: fixed; bottom: -20px; color: #ff6fa8; opacity: 1; pointer-events: none; animation: floatUp 6s linear forwards; z-index: 999999; }
+    @keyframes floatUp { 0% { transform: translateY(0) scale(1); opacity: 1; } 100% { transform: translateY(-130vh) scale(1.4); opacity: 0; } }
+    .glitter { pointer-events: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
+
+    .emoji { position: fixed; top: -50px; font-size: 25px; animation: emojiFall 5s linear forwards; z-index: 1000000; }
+    @keyframes emojiFall { 0% { transform: translateY(0); } 100% { transform: translateY(100vh); } }
+
+    #music-btn { display: block; margin: 20px auto; font-family: 'Patrick Hand', cursive; }
+  </style>
+</head>
+<body>
+
+  <button id="music-btn" class="cute-btn yes-btn">🎵 Play Music</button>
+
+  <div class="header">Our Moments ✨💕</div>
+  <div class="timeline">
+    <div class="day">
+      <div class="date">2025.06.24 at Grand Monarch</div>
+      <div class="message">Idk what happened this day but i kinda feel like we bonded from the first day :) sorry If i behaved like a dummy</div>
+      <img src="pic1.jpg" class="photo" />
+    </div>
+    <div class="day">
+      <div class="date">2025.06.29 at Port City</div>
+      <div class="message">Omg what a day It was, I have no words to describe how heavenly It was😍💕 THE FIRST TIME WE KISSED, The day you carried mee, AM I TOO HEAVY FOR YOUUUU? annnddd we don't have a pic</div>
+      <img src="pic2.jpg" class="photo" />
+    </div>
+    <div class="day">
+      <div class="date">2025.07.03 at MÁ Cafe</div>
+      <div class="message">I was overwhelmed of the fact that I got flowers, my favourite flowers, lillies : There's something you dodn't kknow about this dayy, You still don't knowwww 🤐🤫</div>
+      <img src="pic3.jpg" class="photo" />
+    </div>
+    <div class="day">
+      <div class="date">2025.07.11 at OGF</div>
+      <div class="message">When we went to watch movies and played games! It was so so so good! I never thought I'll fall this hard for you🙃🤍. You don't have this pic with youu. </div>
+      <img src="pic4.jpg" class="photo" />
+    </div>
+    <div class="day">
+      <div class="date">2025.07.18</div>
+      <div class="message">You dropped me home from Watersedge, we kissed so muchh on the wayyy, you treated me like a princess😘💋👑 Anndd we don't have a pic but this will do</div>
+      <img src="pic5.jpg" class="photo" />
+    </div>
+
+    <div class="day">
+      <div class="date">2025.07.28 at Port City</div>
+      <div class="message">Again, port city : Aluth kalawak 🚗😘😍 these emojis will explain the whole story 😂 I love youu so muchh</div>
+      <img src="pic6.jpg" class="photo" />
+    </div>
+
+    <div class="day">
+      <div class="date">2025.08.01 Pizza Hut</div>
+      <div class="message">First time we met at Pizza Hut — Crazy, Fun, and Delicious💗</div>
+      <img src="pic7.jpg" class="photo" />
+    </div>
+
+    <div class="day">
+      <div class="date">2025.08.07 OGF + Barista</div>
+      <div class="message">We went to watch Fantastic Four but we didn't actually watch the movie lol 😂😘🍒 Then Barista, then burger hangoverrrr. We kissed a lott, Remember the way you removed the sause from my lips :) Expensive day for you huh?</div>
+      <img src="pic8.jpg" class="photo" />
+    </div>
+
+    <div class="day">
+      <div class="date">2025.08.10 JAVA + Maama Louise</div>
+      <div class="message">IDK where we went but we went to JAVA and then Maama Louise's pizza ... The dayy was HOT🔥 You really couldn't keep your hands to yourselfff😂😘🍒💋 again, Love you</div>
+      <img src="pic9.jpg" class="photo" />
+    </div>
+
+    <div class="day">
+      <div class="date">2025.08.16/17 Nimsara's Birthday</div>
+      <div class="message">I was reallyy sad I thought you woudn't comeee.. But you cammeee and gave me a Bigg warmmm hug infront of everyyyyoneee. Againnn.. Love you , Love you , Love youuu. That was the first time You saw me Nakeyyy though🤭🫣🤫 Wasn't planned, Didn't expect that But IDK it was a great great dayyy. I know you came for me and You Stayed the night For me : )</div>
+      <img src="pic10.jpg" class="photo" />
+    </div>
+
+    <div class="day">
+      <div class="date">Feelings 💗</div>
+      <div class="message">Still Love you So muchh. What shouuld I do. I ve never behaved like a psycopath for anyone- - -FOR ANYONE. I ve never walked out of a date Like yesterday. I hate to see you hurt yourselff. No matter how busy you are mn karadara karanne nahne 😔😔😔 I ve learned the lesson myself 😔 I know You get trauma bcz of me, Eth idk why I love yyou this much :)</div>
+     
+    </div>
+
+    <div class="day" style="text-align:center; background:#fff0f5;">
+      <div class="date">Can we get drunk together?(more like I wanna Drink) 🍷😂</div>
+      <div class="message">This Question is out of the blue. Hadanna gaman nikan hithila ahuwe:/ Biwwe naha in a long timee. Promise I won't vomit 🤞, On a day you are not busy ofcc. Ik december is busyy busyy for youuu, Maybe at AN?</div>
+      <div style="margin-top:15px;">
+        <button class="cute-btn yes-btn" onclick="happyRain()">Yes 💗</button>
+        <button class="cute-btn no-btn" onclick="cryRain()">No 😭</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="glitter"></div>
+
+  <script>
+    const music = new Audio('music.mp3');
+    const musicBtn = document.getElementById('music-btn');
+    let playing = false;
+    musicBtn.addEventListener('click', () => {
+      if(!playing){ music.play(); musicBtn.textContent='🎵 Pause Music'; playing=true; }
+      else { music.pause(); musicBtn.textContent='🎵 Play Music'; playing=false; }
+    });
+
+    function createHeart() {
+      const heart = document.createElement("div");
+      heart.classList.add("heart");
+      heart.textContent = "💗";
+      heart.style.left = Math.random() * 100 + "vw";
+      heart.style.fontSize = (20 + Math.random() * 25) + "px";
+      document.body.appendChild(heart);
+      setTimeout(() => heart.remove(), 6000);
+    }
+    setInterval(createHeart, 500);
+
+    function happyRain() {
+      for(let i=0;i<20;i++){
+        const emoji = document.createElement("div");
+        emoji.classList.add("emoji");
+        emoji.textContent = "😊";
+        emoji.style.left = Math.random() * 100 + "vw";
+        emoji.style.animationDuration = (3 + Math.random()*2) + "s";
+        document.body.appendChild(emoji);
+        setTimeout(() => emoji.remove(), 5000);
+      }
+    }
+
+    function cryRain() {
+      for(let i=0;i<20;i++){
+        const cry = document.createElement("div");
+        cry.classList.add("emoji");
+        cry.textContent = "😭";
+        cry.style.left = Math.random() * 100 + "vw";
+        cry.style.animationDuration = (3 + Math.random()*2) + "s";
+        document.body.appendChild(cry);
+        setTimeout(() => cry.remove(), 5000);
+      }
+    }
+  </script>
+</body>
+</html>
